@@ -1,14 +1,21 @@
 import {
     createBrowserRouter,
 } from "react-router-dom";
-import Navbar from "../page/Navbar";
+import JobForm from "../page/components/jobform";
+import JobList from "../page/components/joblist";
+
+
 
 
 const router=createBrowserRouter(
     [
         {
             path:"/",
-            element:<Navbar/>,
+            element:<JobList/>,
+        },
+        {
+            path:"/jobs/new",
+            element:<JobForm/>,
         },
     ],
 )
