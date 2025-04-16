@@ -31,3 +31,8 @@ A modern frontend interface for scheduling backend jobs. Built with **React**, *
 
 ## 📁 Project Structure
 
+src/ ├── api.js # API service (scheduleJob, fetchJobs) ├── pages/ │ ├── Home.jsx # Job scheduling form │ └── JobList.jsx # Display submitted job details ├── App.jsx # Router config └── main.jsx # App entry point
+
+yaml
+Copy
+Edit
